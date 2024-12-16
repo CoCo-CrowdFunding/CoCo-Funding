@@ -6,6 +6,7 @@
 
 - [CoCo crowdfunding](#coco-crowdfunding)
   - [目錄](#目錄)
+  - [demo 影片](#demo-影片)
   - [相關介面](#相關介面)
   - [Built With](#built-with)
   - [安裝與運行](#安裝與運行)
@@ -27,6 +28,10 @@
   - [VSCode Extensions (Optional but highly recommended!)](#vscode-extensions-optional-but-highly-recommended)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
+
+## demo 影片
+
+[coco 募資專案 demo](https://youtu.be/g1bSZJwMqJQ?si=dybDBxJLIYw6Z9hy)
 
 ## 相關介面
 
