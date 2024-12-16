@@ -24,7 +24,7 @@
     - [server](#server)
     - [client](#client)
   - [相關資源](#相關資源)
-    - [VSCode Extensions (Optional but highly recommended!)](#vscode-extensions-optional-but-highly-recommended)
+  - [VSCode Extensions (Optional but highly recommended!)](#vscode-extensions-optional-but-highly-recommended)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -517,7 +517,8 @@ $ npm test -- --runInBand
 - [git 相關指令](https://jagged-veil-0e3.notion.site/git-216c171d3a774b3485baa0932aa46b40?pvs=4)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
-#### VSCode Extensions (Optional but highly recommended!)
+
+## VSCode Extensions (Optional but highly recommended!)
 
 | Extenstion Name                        | Description                                                                                                                                                                       |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
