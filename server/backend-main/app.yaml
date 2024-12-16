@@ -1,0 +1,21 @@
+runtime: nodejs18
+
+env: standard
+
+env_variables:
+  MONGO_URI: "mongodb+srv://lydia0492302209:lydia2302209@cluster0.cbpm1.mongodb.net/Crowdfunding_Platform?retryWrites=true&w=majority&appName=Cluster0"
+  port: 8080
+
+handlers:
+  # 服務靜態資源
+  - url: /static
+    static_dir: public/static
+
+  # 服務 index.html
+  - url: /
+    static_files: public/index.html
+    upload: public/index.html
+
+  # # 讓 Express 處理其他請求
+  - url: /.*
+    script: auto

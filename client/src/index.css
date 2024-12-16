@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-white text-gray-700
+      w-72 min-h-[10rem] 
+       rounded-md overflow-hidden
+      snap-center;
+  }
+
+  .cardSearch {
+    @apply bg-white text-gray-700
+      
+      max-h-44
+      max-w-2xl
+      sm:scale-100 scale-90
+      shadow-lg rounded-md overflow-hidden;
+  }
+
+  .cardSearchForSM {
+    @apply bg-white text-gray-700
+    text-xs
+    shadow-lg rounded-md overflow-hidden;
+  }
+
+  .cardCart {
+    @apply bg-white text-gray-700
+      
+      max-h-60
+      max-w-2xl
+      sm:scale-100 scale-90
+      shadow-lg rounded-md overflow-hidden;
+  }
+
+  .cardimg {
+    @apply h-full sm:w-48 w-28 flex-none;
+  }
+
+  .cancalBotton {
+    @apply bg-red-100 text-white hover:bg-red-700
+    px-1.5 py-0.5 rounded-md
+    text-xs;
+  }
+
+  .historyCard {
+    @apply bg-white text-gray-700
+    sm:scale-100 scale-90
+    max-w-6xl
+    max-h-60
+    shadow-lg rounded-md overflow-hidden;
+  }
+
+  .QAcard {
+    @apply bg-white text-gray-700
+   
+    max-w-6xl
+    max-h-60
+    shadow-lg rounded-md overflow-hidden;
+  }
+
+  .badge {
+    @apply px-3 py-1 rounded-full text-xs bg-gray-100;
+  }
+  .class-title {
+    @apply font-semibold text-2xl 
+      overflow-ellipsis overflow-hidden whitespace-nowrap;
+  }
+  .discount-percent {
+    @apply bg-mainOrange
+    px-1.5 py-0.5 rounded-md
+    text-xs text-white;
+  }
+
+  .button-search {
+    @apply bg-mainBlue hover:bg-mainBlue
+    px-2 py-1 rounded-md
+    mx-1
+    text-white font-medium
+    tracking-wider transition;
+  }
+
+  .button-primary {
+    @apply bg-mainBlue hover:bg-blue-700
+    px-4 py-2 rounded-md
+    text-white font-medium
+    tracking-wider transition;
+  }
+  .button-loveicon {
+    @apply flex-grow
+    flex justify-center items-center
+    bg-gray-300/60 hover:bg-gray-300/80
+    transition rounded-md;
+  }
+}
+
+@layer base {
+  body {
+    font-family: "Overpass", sans-serif;
+    font-weight: 600; /* 正常字重 */
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Overpass", sans-serif;
+  font-weight: 600; /* 正常字重 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:lang(zh-Hant) {
+  font-family: "Noto Serif TC", serif; /* 中文使用 Noto Serif TC */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 20px;
+    height: 20px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #f9f9f9;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #23387657;
+    border-radius: 100vh;
+    border: 3px solid #f6f7ed;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-mainBlue;
+  }
+}
+
+.min-h-screen {
+  min-height: 60vh;
+}
